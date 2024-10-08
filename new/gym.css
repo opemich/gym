@@ -1,0 +1,112 @@
+body{
+    font-family: arial;
+    background-color: rgb(242, 245, 245);
+}
+
+#home-content{
+    height: 1005px;
+    background-color: rgb(242, 245, 245);
+}
+
+#home-content h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#image1{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 30px;
+    background-image: url(pic/img1.jpeg);
+    background-size: cover;
+    border: 1px solid chocolate;
+}
+
+#image2{
+    width: 888px;
+    height: 600px;
+    float: left;
+    border-radius: 30px;
+    background-image: url(pic/img2.jpeg);
+    background-size: cover;
+    border: 1px solid chocolate;
+}
+
+#image1 p{
+    float: left;
+    margin-top: 430px;
+}
+
+#static-container{
+    height: 150px;
+    background-color: rgb(88, 87, 87);
+    border-radius: 100px;
+}
+
+.stat-preview{
+    width: 220px;
+    margin: 0 15px;
+    float: left;
+    color: rgba(255, 255, 255, 0.534);
+    margin-left: 80px;
+    margin-top: 7px;
+}
+
+.stat-preview h1{
+    color: white;
+}
+
+.stat-preview h6{
+    color: rgba(255, 255, 255, 0.836);
+}
+
+#footer-container{
+    height: 245px;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+#footer-top{
+    height: 200px;
+    margin: 0;
+}
+
+.footertop-preview{
+    width: 220px;
+    height: 200px;
+    margin: 0 15px;
+    float: left;
+}
+
+.footertop-preview h2{
+    margin: 10px o;
+    font-size: 18px;
+    color: rgba(210, 105, 30, 0.753);
+    border-bottom: 2px solid;
+}
+
+.footertop-preview p{
+    color:rgba(255, 255, 255, 0.61);
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.footertop-preview a{
+    text-decoration: none;
+    color: blue;
+}
+
+#footer-bottom{
+    height: 20px;
+    border-top: 2px solid #9fa0a152;
+}
+
+#footer-bottom p{
+    line-height: 40px;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.356);
+    float: left;
+}
